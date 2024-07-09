@@ -14,7 +14,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: backend
-        image: kirillshakhov/retreat-backend:latest
+        image: kirillshakhov/retreat-backend:9ff20147ecfb923e95fc641b1b2d82290440255f
         ports:
         - containerPort: 8000
         resources:

@@ -15,7 +15,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: frontend
-        image: kirillshakhov/retreat-frontend:latest
+        image: kirillshakhov/retreat-frontend:74a1b6b95b9524a8c54662138f1b134a25c71b81
         env:
         - name: PORT
           value: "3000"
